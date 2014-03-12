@@ -3,14 +3,21 @@ SOC501 Group Project
 *Powered by Impress.js
 
 Author:             
-        Midhuri Sivanesan
-        Yara Kashlan
-        Atrabado
-        Richard Hong Nguyen
-        El Dad
-        David Mckay
-        Missing Field
-        XiaoXiong Weng
+Midhuri Sivanesan
+
+Yara Kashlan
+
+Atrabado
+
+Richard Hong Nguyen
+
+El Dad
+
+David Mckay
+
+Missing Field
+
+XiaoXiong Weng
 
 It's a presentation framework based on the power of CSS3 transforms and 
 transitions in modern browsers and inspired by the idea behind prezi.com.

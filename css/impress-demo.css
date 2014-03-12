@@ -178,6 +178,23 @@ a:focus {
     font-family: 'PT Serif', georgia, serif;
     font-size: 48px;
     line-height: 1.5;
+	color: white;
+}
+
+.step h1 {
+	font-size: 130%;
+}
+
+.step h2 {
+	font-size: 120%;
+}
+
+.step h3 {
+	font-size: 90%;
+}
+
+.step ul {
+	font-size: 75%;
 }
 
 /*

@@ -16,6 +16,7 @@
 
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<script src="speakClient.js"></script>
 </head>
 
 <!--
@@ -88,6 +89,9 @@
     -->
 	<div id="title" class="big step" data-x="0" data-y="0">
         <b>Service Work</b>
+		<p>
+		<button onclick="speak('Chapter 13: Service Work');">Start Robotic Voice Over</button>
+		</p>
     </div>
 	
     <div id="landingPage" class="step slide" data-x="-1000" data-y="-1500">
@@ -97,6 +101,9 @@
 			<h3 id="sourceCode">
 				Source Code: <a href="https://github.com/littlebearz/SOC501">https://github.com/littlebearz/SOC501</a>
 			</h3>
+			<p>
+			<button onclick="speak('Created by Midhuri Sivanesan, Yara Kashlan, Arian Trabado, Richard Hong Nguyen, ElDad, David Mckay, Tmclauri and XiaoXiong Weng');">Pronounce My Group Names In A Soothing Robotic Voice.</button>
+			</p>
 	        <ol class="5marginTop">
 	        	<li class="author" data-task="Serving the Public">Midhuri Sivanesan </li>
 				<li class="author" data-task="Interactive: Finding Videos etc">Yara Kashlan </li>
@@ -424,13 +431,14 @@
 		</ul>
 	</div>
 
-		<div class="step" data-y="-200" data-z="2000" data-scale="0.7">
+		<div class="step" data-x="-1500" data-y="50" data-z="2000" data-scale="0.7">
 		<h1>Works Cited:</h1>
 		<ul>
 			<li id="officeVideo"><strong>Emotional Labour</strong> - Video Clip from the Office Television Show https://www.youtube.com/watch?v=PUnsNU4JRAA
 			</li>
 			<li id="demandingVideo"><strong>Demanding Customer</strong> - Video Clip from the Office Television Show https://www.youtube.com/watch?v=jZkdcYlOn5M
 			</li>
+			<li>Robotic Voice Done by Alon Zakai @kripken https://github.com/kripken/speak.js</li>
 		</ul>
 	</div>
     <!--
@@ -561,7 +569,7 @@ if ("ontouchstart" in document.documentElement) {
     is used in event handlers.
     
 -->
-
+<div id="audio"></div>
 </body>
 </html>
 

@@ -69,10 +69,22 @@ th {
 	font-size: 80%; 
 	text-align: left;
 }
-td { line-height: 1; }
+td { 
+	line-height: 1;
+	font-size: 80%;
+}
+
+td ul li {
+	font-size: 80%;
+}
 
 .emphasize {
 	font-size: 60%;
+	font-style: italic;
+}
+
+.emphasize-big {
+	font-size: 120%;
 	font-style: italic;
 }
 

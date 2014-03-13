@@ -54,24 +54,26 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-body {
-    line-height: 1;
-}
+body { line-height: 1; }
 ol, ul {
     list-style: none;
-}
-blockquote, q {
-    quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
 }
 
 table {
     border-collapse: collapse;
     border-spacing: 0;
+	font-size: 100%;
+}
+
+th { 
+	font-size: 80%; 
+	text-align: left;
+}
+td { line-height: 1; }
+
+.emphasize {
+	font-size: 60%;
+	font-style: italic;
 }
 
 /*
@@ -181,21 +183,11 @@ a:focus {
 	color: white;
 }
 
-.step h1 {
-	font-size: 130%;
-}
-
-.step h2 {
-	font-size: 120%;
-}
-
-.step h3 {
-	font-size: 90%;
-}
-
-.step ul {
-	font-size: 75%;
-}
+.step h1 { font-size: 130%; }
+.step h2 { font-size: 120%; }
+.step h3 { font-size: 90%; }
+.step ul { font-size: 75%; }
+.step p { font-size: 80%; }
 
 /*
     ... and we enhance the styles for impress.js.

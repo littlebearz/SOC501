@@ -30,7 +30,7 @@ impress.js may not help you if you have nothing interesting to say ;)
 LICENSE
 ---------
 
-Copyright 2011-2012 Bartek Szopka
+Impress.js Copyright 2011-2012 Bartek Szopka
 
 Released under the MIT and GPL (version 2 or later) Licenses.
 

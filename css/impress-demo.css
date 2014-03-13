@@ -737,3 +737,17 @@ li {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+#sourceCode{
+color:red;
+}
+.author{
+font-style:oblique;
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+}
+.author:hover{
+padding-left:30%;
+font-style:normal;
+}
